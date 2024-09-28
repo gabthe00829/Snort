@@ -1,7 +1,7 @@
 # Snort
 Installing and Using Snort
 
-For this lab to work we will need 2 virtual machine, one to attack and one to defend, I will be using a Kali machine to attack and a Ubuntu Server to defend. We will also need to put them in the same network, I am using virtualbox so I will put them on bridged adapters. Make sure to check the ip of both of your machines to make sure they are on the same network before we begin.
+For this lab to work we will need 2 virtual machine, one to attack and one to defend, I will be using a Kali machine to attack and Ubuntu Server to defend. We will also need to put them in the same network, I am using virtualbox so I will put them on bridged adapters. Make sure to check the ip of both of your machines to make sure they are on the same network before we begin.
 
 We will start by installing Snort on our machine that is defending with sudo apt install snort:
 
