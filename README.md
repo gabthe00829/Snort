@@ -31,4 +31,41 @@ On our defensive machine we should see that somebody tried to scan our machine:
 
 ![image](https://github.com/user-attachments/assets/a044a99d-c0f4-438a-9b09-931281451f11)
 
+On our offensive machine we can use legion to do multitple scans:
+
+![image](https://github.com/user-attachments/assets/d93f0a38-e51c-4dcf-9ce8-51de16f2a045)
+
+We again see on our defensive machine that somebody tried to scan our machine:
+
+![image](https://github.com/user-attachments/assets/96b552c7-6c40-445b-a506-4f0e93eae52f)
+
+Using Snort we can also add a rule that will display a message if another machine attempts an ICMP connection by going in /etc/snort/rules/local.rules to modify the following rules:
+
+![image](https://github.com/user-attachments/assets/ab49f630-8526-4791-9500-dd73522d24f7)
+
+We can start back our Snort to start detecting again:
+
+![image](https://github.com/user-attachments/assets/4213e500-872e-4971-a0e6-977c31705bed)
+
+Going back on our offensive machine we can attempt a ping to our defensive machine:
+
+![image](https://github.com/user-attachments/assets/2a6ad09e-7784-4deb-8b0f-e7e32d75184a)
+
+If we take a look back on our defensive machine we will see that our message displays:
+
+![image](https://github.com/user-attachments/assets/4ac1bf0c-83e0-4f1f-ad7d-870f44befbc1)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
