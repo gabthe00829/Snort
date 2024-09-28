@@ -23,7 +23,7 @@ Now that we know our config file is functionning properly we will use the follow
 
 ![image](https://github.com/user-attachments/assets/54d89e03-99ac-4dc5-970b-582252fd3d5e)
 
-Now that our defensive machine is listening we will do an NMAP scan with our offensive machine to make sure Snort is functionning properly:
+Now that our defensive machine is ready we will do an NMAP scan with our offensive machine to make sure Snort is functionning properly:
 
 ![image](https://github.com/user-attachments/assets/61426252-7e58-4dee-a283-4b5f1d18f8cb)
 
